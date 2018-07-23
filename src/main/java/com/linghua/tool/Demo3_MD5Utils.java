@@ -7,8 +7,6 @@ import java.security.MessageDigest;
 
 /**
  * @author yunfei.li
- * @project maoyan-show-m-web
- * @package com.maoyan.show.utils
  * @date 17/7/19
  */
 public class Demo3_MD5Utils {
