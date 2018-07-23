@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.meituan.service.mobile:maoyan-order-gdomain:2.4.7-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/meituan/service/mobile/maoyan-order-gdomain/2.4.7-SNAPSHOT/maoyan-order-gdomain-2.4.7-20171126.042621-2.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/meituan/service/mobile/maoyan-order-gdomain/2.4.7-SNAPSHOT/maoyan-order-gdomain-2.4.7-20171126.042621-2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/meituan/service/mobile/maoyan-order-gdomain/2.4.7-SNAPSHOT/maoyan-order-gdomain-2.4.7-20171126.042621-2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

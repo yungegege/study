@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: security:sec-sdk:0.3.14">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/security/sec-sdk/0.3.14/sec-sdk-0.3.14.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/security/sec-sdk/0.3.14/sec-sdk-0.3.14-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/security/sec-sdk/0.3.14/sec-sdk-0.3.14-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

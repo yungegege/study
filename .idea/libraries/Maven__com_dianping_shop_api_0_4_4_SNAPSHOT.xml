@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.dianping:shop-api:0.4.4-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/dianping/shop-api/0.4.4-SNAPSHOT/shop-api-0.4.4-20180425.035207-4.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/dianping/shop-api/0.4.4-SNAPSHOT/shop-api-0.4.4-20180425.035207-4-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/dianping/shop-api/0.4.4-SNAPSHOT/shop-api-0.4.4-20180425.035207-4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

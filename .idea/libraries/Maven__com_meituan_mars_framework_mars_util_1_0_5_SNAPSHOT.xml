@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.meituan.mars.framework:mars-util:1.0.5-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/meituan/mars/framework/mars-util/1.0.5-SNAPSHOT/mars-util-1.0.5-20170321.082821-14.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/meituan/mars/framework/mars-util/1.0.5-SNAPSHOT/mars-util-1.0.5-20170321.082821-14-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/meituan/mars/framework/mars-util/1.0.5-SNAPSHOT/mars-util-1.0.5-20170321.082821-14-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
