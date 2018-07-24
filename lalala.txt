@@ -3,4 +3,8 @@ woyehao
 lalalalalalala
 papapa
 yungege
-master
+<<<<<<< HEAD
+feature
+=======
+feature
+>>>>>>> feature1
