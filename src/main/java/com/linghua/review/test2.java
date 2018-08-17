@@ -1,4 +1,6 @@
-package review;
+package com.linghua.review;
+
+import java.util.Objects;
 
 public class test2 implements Comparable<test2>{
 
@@ -8,12 +10,15 @@ public class test2 implements Comparable<test2>{
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-
         test2 test2 = (test2) o;
-
-        return name != null ? name.equals(test2.name) : test2.name == null;
+        return Objects.equals(name, test2.name);
     }
 
+    @Override
+    public int hashCode() {
+
+        return Objects.hash(name);
+    }
 
     /**
      * 缓冲池中，包含以下这些：
@@ -36,11 +41,11 @@ public class test2 implements Comparable<test2>{
         System.out.println("-----------------------------------------");
         //valueOf() 方法的实现比较简单，就是先判断值是否在缓存池中，如果在的话就直接使用缓存池的内容。
         //Integer 缓存池的大小默认为 -128~127。
-        Integer z = Integer.valueOf(123);
-        Integer k = Integer.valueOf(123);
+        Integer z = Integer.valueOf(127);
+        Integer k = Integer.valueOf(127);
         System.out.println(z == k);   // true
-        Integer z1 = Integer.valueOf(1234);
-        Integer k1 = Integer.valueOf(1234);
+        Integer z1 = Integer.valueOf(128);
+        Integer k1 = Integer.valueOf(128);
         System.out.println(z1 == k1);   // false
 
         int m = Integer.valueOf(1234);

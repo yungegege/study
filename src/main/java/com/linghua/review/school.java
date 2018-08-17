@@ -1,7 +1,6 @@
-package review;
+package com.linghua.review;
 
 import java.util.HashSet;
-import java.util.Random;
 
 public class school {
     private String name;

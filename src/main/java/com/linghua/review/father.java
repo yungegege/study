@@ -1,4 +1,4 @@
-package review;
+package com.linghua.review;
 
 public class father {
     public String name1;

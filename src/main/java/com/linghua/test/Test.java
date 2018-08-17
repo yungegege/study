@@ -1,7 +1,5 @@
 package com.linghua.test;
 
-import java.util.ArrayList;
-
 public class Test {
     int var;
     Test(double var){
@@ -30,9 +28,9 @@ public class Test {
         String s1 = "lalala";
         String s2 = new String("lalala");
         String s3 = s2.intern();
-        System.out.println( s1==s2 );
-        System.out.println( s1==s3 );
         System.out.println( s2==s3 );
+        System.out.println( s1==s3 );
+        System.out.println( "lalala"==s3 );
 
         String tmp = "";
         for (int i=0;i<10;tmp+="x"){
