@@ -16,10 +16,10 @@ public class Test {
         u.delete();
         System.out.println("toString--------------------------------------------------------");
         System.out.println(u.toString());
-        System.out.println("hashCode--------------------------------------------------------");
-        System.out.println(u.hashCode());
-        System.out.println("equals--------------------------------------------------------");
-        System.out.println(u.equals(ui));
+//        System.out.println("hashCode--------------------------------------------------------");
+//        System.out.println(u.hashCode());
+//        System.out.println("equals--------------------------------------------------------");
+//        System.out.println(u.equals(ui));
 
     }
 }
