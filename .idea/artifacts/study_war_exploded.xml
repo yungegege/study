@@ -1,71 +1,22 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="study:war exploded">
-    <output-path>$PROJECT_DIR$/target/maoyan-show-m-web-1.0.0</output-path>
+    <output-path>$PROJECT_DIR$/target/study-1.0.0</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>study</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="study" />
         </element>
         <element id="directory" name="lib">
-          <element id="library" level="project" name="Maven: com.meituan.image:client:1.1.7" />
-          <element id="library" level="project" name="Maven: com.dianping.movie:movie-image-api:1.1.7" />
-          <element id="library" level="project" name="Maven: com.dianping.piccentercloud:piccenter-display-api:0.2.6" />
-          <element id="library" level="project" name="Maven: org.json:json:20090211" />
-          <element id="library" level="project" name="Maven: com.maoyan:maoyan-show-bsdata-api:1.2.2" />
-          <element id="library" level="project" name="Maven: cglib:cglib:3.2.0" />
-          <element id="library" level="project" name="Maven: org.ow2.asm:asm:5.0.3" />
-          <element id="library" level="project" name="Maven: org.apache.ant:ant:1.9.4" />
-          <element id="library" level="project" name="Maven: org.apache.ant:ant-launcher:1.9.4" />
-          <element id="library" level="project" name="Maven: com.maoyan:movie-oceanus-sdk:1.1.4.RELEASE" />
-          <element id="file-copy" path="$MAVEN_REPOSITORY$/com/maoyan/movie-oceanus-common/1.0-SNAPSHOT/movie-oceanus-common-1.0-20171123.070923-2.jar" output-file-name="movie-oceanus-common-1.0-SNAPSHOT.jar" />
-          <element id="library" level="project" name="Maven: org.reflections:reflections:0.9.10" />
-          <element id="library" level="project" name="Maven: org.javassist:javassist:3.19.0-GA" />
-          <element id="library" level="project" name="Maven: com.google.code.findbugs:annotations:2.0.1" />
-          <element id="library" level="project" name="Maven: com.netflix.hystrix:hystrix-core:1.5.8" />
-          <element id="library" level="project" name="Maven: com.netflix.archaius:archaius-core:0.4.1" />
-          <element id="library" level="project" name="Maven: commons-configuration:commons-configuration:1.8" />
-          <element id="library" level="project" name="Maven: io.reactivex:rxjava:1.2.0" />
-          <element id="library" level="project" name="Maven: org.hdrhistogram:HdrHistogram:2.1.9" />
-          <element id="library" level="project" name="Maven: com.sankuai.meituan:mtconfig-client:1.2.1" />
-          <element id="library" level="project" name="Maven: commons-io:commons-io:2.5" />
-          <element id="library" level="project" name="Maven: com.meituan.service.mobile:mtthrift:1.8.4.2" />
-          <element id="library" level="project" name="Maven: com.sankuai.octo:mns-invoker:1.8.7" />
-          <element id="library" level="project" name="Maven: com.sankuai.octo:idl-sgagent:1.7.2" />
-          <element id="library" level="project" name="Maven: com.dianping.cat:cat-client:1.6.8" />
-          <element id="library" level="project" name="Maven: com.meituan.mtrace:mtrace:1.1.14" />
-          <element id="library" level="project" name="Maven: com.meituan.mtrace:idl-mtrace:1.1.14" />
-          <element id="library" level="project" name="Maven: com.meituan.mtrace:mtrace-api:1.1.14" />
-          <element id="library" level="project" name="Maven: commons-pool:commons-pool:1.6" />
-          <element id="library" level="project" name="Maven: org.apache.thrift:libthrift:0.8.0" />
-          <element id="library" level="project" name="Maven: org.apache.thrift:libfb303:0.8.0" />
-          <element id="library" level="project" name="Maven: org.xerial.snappy:snappy-java:1.1.1.6" />
-          <element id="file-copy" path="$MAVEN_REPOSITORY$/com/facebook/swift/swift-annotations/0.16.0-mt-SNAPSHOT/swift-annotations-0.16.0-mt-20151221.124547-1.jar" output-file-name="swift-annotations-0.16.0-mt-SNAPSHOT.jar" />
-          <element id="file-copy" path="$MAVEN_REPOSITORY$/com/facebook/swift/swift-codec/0.16.0-mt-SNAPSHOT/swift-codec-0.16.0-mt-20151218.091258-4.jar" output-file-name="swift-codec-0.16.0-mt-SNAPSHOT.jar" />
-          <element id="library" level="project" name="Maven: com.thoughtworks.paranamer:paranamer:2.5.2" />
-          <element id="file-copy" path="$MAVEN_REPOSITORY$/com/facebook/swift/swift-generator/0.16.0-mt-SNAPSHOT/swift-generator-0.16.0-mt-20151218.091341-3.jar" output-file-name="swift-generator-0.16.0-mt-SNAPSHOT.jar" />
-          <element id="file-copy" path="$MAVEN_REPOSITORY$/com/facebook/swift/swift-idl-parser/0.16.0-mt-SNAPSHOT/swift-idl-parser-0.16.0-mt-20151222.051729-1.jar" output-file-name="swift-idl-parser-0.16.0-mt-SNAPSHOT.jar" />
-          <element id="library" level="project" name="Maven: org.antlr:antlr-runtime:3.5" />
-          <element id="library" level="project" name="Maven: org.antlr:stringtemplate:4.0.2" />
-          <element id="library" level="project" name="Maven: io.netty:netty-all:4.0.24.Final" />
-          <element id="library" level="project" name="Maven: com.meituan.service.movie:movie.deal.service.common:1.1.9" />
-          <element id="library" level="project" name="Maven: com.dianping.cat:cat-core:1.4.4" />
-          <element id="library" level="project" name="Maven: org.unidal.framework:foundation-service:2.4.0" />
-          <element id="library" level="project" name="Maven: org.codehaus.plexus:plexus-container-default:1.6" />
-          <element id="library" level="project" name="Maven: org.codehaus.plexus:plexus-classworlds:2.5.1" />
-          <element id="library" level="project" name="Maven: org.apache.xbean:xbean-reflect:3.7" />
-          <element id="library" level="project" name="Maven: org.codehaus.plexus:plexus-utils:3.0.20" />
-          <element id="library" level="project" name="Maven: org.unidal.framework:web-framework:2.4.0" />
-          <element id="library" level="project" name="Maven: org.unidal.framework:dal-jdbc:2.2.0" />
-          <element id="library" level="project" name="Maven: c3p0:c3p0:0.9.1.2" />
-          <element id="library" level="project" name="Maven: com.google.code.gson:gson:2.3.1" />
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.5.11" />
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-log4j12:1.5.11" />
           <element id="library" level="project" name="Maven: log4j:log4j:1.2.14" />
-          <element id="library" level="project" name="Maven: com.dianping:avatar-logger:2.2.4" />
-          <element id="library" level="project" name="Maven: com.dianping:avatar-core:2.2.4" />
-          <element id="library" level="project" name="Maven: org.slf4j:jcl-over-slf4j:1.5.11" />
-          <element id="library" level="project" name="Maven: dom4j:dom4j:1.6.1" />
-          <element id="library" level="project" name="Maven: org.freemarker:freemarker:2.3.15" />
           <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:4.3.17.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-aop:4.3.17.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-beans:4.3.17.RELEASE" />
@@ -76,155 +27,23 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-context:4.3.17.RELEASE" />
           <element id="library" level="project" name="Maven: com.google.guava:guava:16.0" />
           <element id="library" level="project" name="Maven: org.projectlombok:lombok:1.14.8" />
-          <element id="library" level="project" name="Maven: com.dianping.data.warehouse:dp-log:1.0.6" />
-          <element id="library" level="project" name="Maven: com.dianping.platform:phoenix-environment:0.1.0" />
-          <element id="library" level="project" name="Maven: commons-lang:commons-lang:2.6" />
-          <element id="library" level="project" name="Maven: commons-collections:commons-collections:3.2" />
           <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.9" />
-          <element id="library" level="project" name="Maven: com.dianping:gis-api:1.0.3" />
-          <element id="library" level="project" name="Maven: com.dianping:iphub-api:1.2.0" />
-          <element id="library" level="project" name="Maven: com.dianping:user-remote:2.0.4" />
-          <element id="library" level="project" name="Maven: com.dianping:avatar-interface:1.0.1" />
-          <element id="library" level="project" name="Maven: com.dianping:user-cash-api:1.3.4" />
-          <element id="file-copy" path="$MAVEN_REPOSITORY$/com/dianping/mobile/mapi-framework-api/0.0.2-SNAPSHOT/mapi-framework-api-0.0.2-20160309.095954-6.jar" output-file-name="mapi-framework-api-0.0.2-SNAPSHOT.jar" />
-          <element id="library" level="project" name="Maven: com.dianping:account-common-validation:1.4.4" />
-          <element id="library" level="project" name="Maven: com.dianping:account-api:3.3.4" />
-          <element id="library" level="project" name="Maven: com.dianping:account-validation-api:2.0.0" />
-          <element id="library" level="project" name="Maven: com.dianping:account-utils:1.7.4" />
-          <element id="library" level="project" name="Maven: com.dianping.platform:platform-sdk:1.3.5" />
-          <element id="library" level="project" name="Maven: com.dianping.zebra:zebra-ds-monitor-client:2.9.12" />
-          <element id="library" level="project" name="Maven: com.dianping.zebra:zebra-api:2.9.12" />
-          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-jdbc:7.0.61" />
-          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-juli:7.0.61" />
-          <element id="library" level="project" name="Maven: com.alibaba:druid:1.0.17" />
-          <element id="library" level="project" name="Maven: com.dianping:avatar-tracker:2.2.5" />
-          <element id="library" level="project" name="Maven: com.dianping:avatar-dao:2.2.5" />
-          <element id="library" level="project" name="Maven: org.apache.ibatis:ibatis-sqlmap:2.3.4.726" />
-          <element id="library" level="project" name="Maven: com.dianping:avatar-cache:2.8.0" />
-          <element id="library" level="project" name="Maven: com.dianping:cache-builder:2.8.0" />
-          <element id="library" level="project" name="Maven: com.dianping:cache-core:2.8.0" />
-          <element id="file-copy" path="$MAVEN_REPOSITORY$/com/danga/memcached/2.5.1-SNAPSHOT/memcached-2.5.1-20141230.101519-1.jar" output-file-name="memcached-2.5.1-SNAPSHOT.jar" />
-          <element id="file-copy" path="$MAVEN_REPOSITORY$/redis/clients/jedis/2.7.4.DP-SNAPSHOT/jedis-2.7.4.DP-20160121.063210-26.jar" output-file-name="jedis-2.7.4.DP-SNAPSHOT.jar" />
-          <element id="library" level="project" name="Maven: com.dianping:avatar-cache-remote:2.8.0" />
-          <element id="library" level="project" name="Maven: commons-digester:commons-digester:2.0" />
-          <element id="library" level="project" name="Maven: com.dianping.dpdl:dpdl-simple:0.1.1" />
-          <element id="library" level="project" name="Maven: com.meituan.inf:xmd-log4j2:1.3.2" />
-          <element id="library" level="project" name="Maven: com.meituan.inf:xmd-common-log4j2:1.3.2" />
-          <element id="library" level="project" name="Maven: com.dianping.credit:credit-cxutil:2.1.4" />
-          <element id="file-copy" path="$MAVEN_REPOSITORY$/com/meituan/mtguardutil/mtguardutils/1.2-SNAPSHOT/mtguardutils-1.2-20160615.020631-1.jar" output-file-name="mtguardutils-1.2-SNAPSHOT.jar" />
-          <element id="library" level="project" name="Maven: com.dianping.dpsf:dpsf-net:2.10.3.3" />
-          <element id="library" level="project" name="Maven: org.mortbay.jetty:jetty:6.1.26" />
-          <element id="library" level="project" name="Maven: org.mortbay.jetty:jetty-util:6.1.26" />
-          <element id="library" level="project" name="Maven: com.google.protobuf:protobuf-java:3.2.0" />
-          <element id="library" level="project" name="Maven: io.protostuff:protostuff-runtime:1.1.0" />
-          <element id="library" level="project" name="Maven: io.protostuff:protostuff-api:1.1.0" />
-          <element id="library" level="project" name="Maven: io.protostuff:protostuff-collectionschema:1.1.0" />
-          <element id="library" level="project" name="Maven: io.protostuff:protostuff-core:1.1.0" />
-          <element id="library" level="project" name="Maven: org.objenesis:objenesis:2.1" />
-          <element id="library" level="project" name="Maven: de.ruedigermoeller:fst:1.63" />
-          <element id="library" level="project" name="Maven: commons-httpclient:commons-httpclient:3.1" />
-          <element id="library" level="project" name="Maven: org.codehaus.groovy:groovy-all:2.3.9" />
-          <element id="library" level="project" name="Maven: com.dianping.rhino:rhino-client:1.1.4" />
-          <element id="library" level="project" name="Maven: org.jodd:jodd-core:3.4.9" />
           <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-core-asl:1.9.13" />
           <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-mapper-asl:1.9.13" />
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.9.3" />
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.9.3" />
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.9.3" />
           <element id="library" level="project" name="Maven: com.alibaba:fastjson:1.2.29" />
-          <element id="library" level="project" name="Maven: com.dianping.swallow:swallow-producerclient:0.8.11.6" />
-          <element id="library" level="project" name="Maven: com.geekhua:file-queue:0.1.5" />
-          <element id="library" level="project" name="Maven: com.sankuai.octo:idl-common:1.8.1" />
-          <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-api:2.3" />
-          <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-core:2.3" />
-          <element id="library" level="project" name="Maven: com.dianping.swallow:swallow-consumerclient:0.8.11.6" />
-          <element id="library" level="project" name="Maven: com.dianping.swallow:swallow-common:0.8.11.6" />
-          <element id="library" level="project" name="Maven: org.apache.commons:commons-pool2:2.4.2" />
-          <element id="library" level="project" name="Maven: com.dianping.lion:lion-client:0.7.4" />
-          <element id="library" level="project" name="Maven: org.apache.zookeeper:zookeeper:3.4.8" />
-          <element id="library" level="project" name="Maven: jline:jline:0.9.94" />
-          <element id="library" level="project" name="Maven: io.netty:netty:3.7.0.Final" />
-          <element id="library" level="project" name="Maven: org.apache.curator:curator-framework:2.7.1" />
-          <element id="library" level="project" name="Maven: org.apache.curator:curator-client:2.7.1" />
-          <element id="library" level="project" name="Maven: org.apache.curator:curator-recipes:2.7.1" />
-          <element id="library" level="project" name="Maven: com.dianping:ops-remote-host:1.0.14" />
-          <element id="library" level="project" name="Maven: joda-time:joda-time:2.9.2" />
-          <element id="library" level="project" name="Maven: org.hibernate:hibernate-validator:5.2.4.Final" />
-          <element id="library" level="project" name="Maven: javax.validation:validation-api:1.1.0.Final" />
-          <element id="library" level="project" name="Maven: org.jboss.logging:jboss-logging:3.2.1.Final" />
-          <element id="library" level="project" name="Maven: com.fasterxml:classmate:1.1.0" />
-          <element id="library" level="project" name="Maven: com.maoyan:maoyan-show-data-api:1.6.5" />
-          <element id="library" level="project" name="Maven: com.maoyan:maoyan-show-deal-api:1.6.6" />
-          <element id="library" level="project" name="Maven: com.maoyan:maoyan-show-common:1.3.4" />
-          <element id="library" level="project" name="Maven: com.maoyan:maoyan-show-util:1.0.5" />
-          <element id="library" level="project" name="Maven: org.apache.poi:poi:3.16" />
-          <element id="library" level="project" name="Maven: org.apache.commons:commons-collections4:4.1" />
-          <element id="library" level="project" name="Maven: com.maoyan:maoyan-show-tpdata-api:1.1.8" />
-          <element id="library" level="project" name="Maven: com.maoyan:myshow-coupon-query-api:1.0.3" />
-          <element id="library" level="project" name="Maven: com.maoyan:maoyan-show-coupon-common:1.0.4" />
-          <element id="library" level="project" name="Maven: org.apache.commons:commons-lang3:3.4" />
-          <element id="library" level="project" name="Maven: com.maoyan:myshow-coupon-manage-api:1.0.6" />
-          <element id="library" level="project" name="Maven: com.maoyan:myshow-coupon-process-api:1.0.4" />
-          <element id="library" level="project" name="Maven: com.maoyan:maoyan-show-promotion-api:1.0.3" />
-          <element id="file-copy" path="$MAVEN_REPOSITORY$/com/dianping/shop-api/0.4.4-SNAPSHOT/shop-api-0.4.4-20180425.035207-4.jar" output-file-name="shop-api-0.4.4-SNAPSHOT.jar" />
-          <element id="library" level="project" name="Maven: com.dianping.search:dp-search-interface:1.4.8.4" />
-          <element id="file-copy" path="$MAVEN_REPOSITORY$/com/meituan/service/user/account-api/0.0.4-SNAPSHOT/account-api-0.0.4-20170303.044240-30.jar" output-file-name="account-api-0.0.4-SNAPSHOT.jar" />
-          <element id="library" level="project" name="Maven: com.dianping.poi:poi-gis-api:0.0.18" />
-          <element id="library" level="project" name="Maven: com.dianping.sales:mkt-adv-api:3.7" />
-          <element id="library" level="project" name="Maven: com.dianping.sales:sales-ares-common:0.1.3" />
-          <element id="library" level="project" name="Maven: com.dianping.mobile:mobile-base-datatypes:0.1.6.2" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-context-support:4.1.5.RELEASE" />
-          <element id="library" level="project" name="Maven: com.dianping.poi:dp-category-api:1.0.6" />
-          <element id="library" level="project" name="Maven: com.meituan.service.mobile:movie-common-thrift:0.9.0" />
-          <element id="library" level="project" name="Maven: commons-beanutils:commons-beanutils:1.8.3" />
-          <element id="library" level="project" name="Maven: com.meituan.service.user:validate-token-api:1.0.0" />
-          <element id="library" level="project" name="Maven: com.maoyan:inf-user-center.export:1.0.9" />
-          <element id="file-copy" path="$MAVEN_REPOSITORY$/com/maoyan/thrift/thrift-generator/1.0.0-SNAPSHOT/thrift-generator-1.0.0-20180118.103320-36.jar" output-file-name="thrift-generator-1.0.0-SNAPSHOT.jar" />
-          <element id="file-copy" path="$MAVEN_REPOSITORY$/com/meituan/service/mobile/maoyan-order-gdomain/2.4.7-SNAPSHOT/maoyan-order-gdomain-2.4.7-20171126.042621-2.jar" output-file-name="maoyan-order-gdomain-2.4.7-SNAPSHOT.jar" />
-          <element id="library" level="project" name="Maven: com.maoyan:inf-user-profile.export:1.0.0" />
-          <element id="library" level="project" name="Maven: security:sec-sdk:0.3.14" />
-          <element id="library" level="project" name="Maven: com.coverity.security:coverity-escapers:1.1.1" />
-          <element id="library" level="project" name="Maven: org.owasp:csrfguard:3.1.0" />
-          <element id="library" level="project" name="Maven: commons-fileupload:commons-fileupload:1.2.1" />
-          <element id="library" level="project" name="Maven: org.jsoup:jsoup:1.8.3" />
-          <element id="library" level="project" name="Maven: commons-net:commons-net:3.4" />
-          <element id="library" level="project" name="Maven: xml-apis:xml-apis:1.4.01" />
-          <element id="library" level="project" name="Maven: org.apache.xmlgraphics:batik-css:1.9.1" />
-          <element id="library" level="project" name="Maven: org.apache.xmlgraphics:batik-util:1.9.1" />
-          <element id="library" level="project" name="Maven: org.apache.xmlgraphics:batik-constants:1.9.1" />
-          <element id="library" level="project" name="Maven: org.apache.xmlgraphics:batik-i18n:1.9.1" />
-          <element id="library" level="project" name="Maven: org.apache.xmlgraphics:xmlgraphics-commons:2.2" />
-          <element id="library" level="project" name="Maven: xml-apis:xml-apis-ext:1.3.04" />
-          <element id="library" level="project" name="Maven: net.sourceforge.nekohtml:nekohtml:1.9.22" />
-          <element id="library" level="project" name="Maven: xerces:xercesImpl:2.11.0" />
-          <element id="library" level="project" name="Maven: com.meituan.service.mobile:touch_account:2.2.1" />
-          <element id="library" level="project" name="Maven: com.meituan.service.mobile:touch_common:2.2.0" />
-          <element id="library" level="project" name="Maven: org.restlet.jee:org.restlet.ext.json:2.0.10" />
-          <element id="library" level="project" name="Maven: org.restlet.jee:org.restlet.lib.org.json:2.0" />
-          <element id="library" level="project" name="Maven: org.restlet.jee:org.restlet:2.0.10" />
-          <element id="library" level="project" name="Maven: org.osgi:org.osgi.core:4.0.0" />
-          <element id="library" level="project" name="Maven: com.meituan.service.mobile:groupgeo:0.4.1.8" />
-          <element id="library" level="project" name="Maven: com.vividsolutions:jts:1.11" />
-          <element id="file-copy" path="$MAVEN_REPOSITORY$/com/meituan/mars/framework/mars-sdk/1.0.1-SNAPSHOT/mars-sdk-1.0.1-20170712.091740-20.jar" output-file-name="mars-sdk-1.0.1-SNAPSHOT.jar" />
-          <element id="file-copy" path="$MAVEN_REPOSITORY$/com/meituan/mars/framework/mars-util/1.0.5-SNAPSHOT/mars-util-1.0.5-20170321.082821-14.jar" output-file-name="mars-util-1.0.5-SNAPSHOT.jar" />
-          <element id="library" level="project" name="Maven: com.meituan.mtrace:mtrace-http:1.1.14" />
-          <element id="library" level="project" name="Maven: com.meituan:jmonitor:1.5.4" />
-          <element id="library" level="project" name="Maven: org.eclipse.jetty.orbit:javax.servlet:3.0.0.v201112011016" />
-          <element id="library" level="project" name="Maven: org.eclipse.jetty.orbit:javax.servlet.jsp:2.2.0.v201112011158" />
-          <element id="library" level="project" name="Maven: org.aspectj:aspectjrt:1.8.7" />
-          <element id="library" level="project" name="Maven: org.aspectj:aspectjweaver:1.8.7" />
+          <element id="library" level="project" name="Maven: commons-lang:commons-lang:2.6" />
           <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpclient:4.5.2" />
           <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpmime:4.5.2" />
           <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpcore:4.4.9" />
-          <element id="library" level="project" name="Maven: com.maoyan.service:maoyan-point-card-api:1.9" />
-          <element id="library" level="project" name="Maven: com.dianping.squirrel:squirrel-client:2.2.10" />
-          <element id="library" level="project" name="Maven: net.sf.ehcache:ehcache-core:2.5.2" />
-          <element id="library" level="project" name="Maven: net.spy:spymemcached:2.11.6" />
-          <element id="library" level="project" name="Maven: com.caucho:hessian:3.1.5" />
+          <element id="library" level="project" name="Maven: redis.clients:jedis:2.8.0" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-pool2:2.3" />
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/target/maoyan-show-m-web-1.0.0/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/target/study-1.0.0/META-INF/MANIFEST.MF" />
       </element>
       <element id="javaee-facet-resources" facet="study/web/Web" />
     </root>

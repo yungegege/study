@@ -1,53 +1,65 @@
-// 本题为考试多行输入输出规范示例，无需提交，不计分。
+import java.io.*;
 import java.util.*;
 
+class Test {
+}
+
 public class Main {
-    public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
-        int n = in.nextInt();
-        int time = in.nextInt();
+    public static void main(String args[]) {
+        Scanner cin = new Scanner(System.in);
 
-        List<Integer> result = new ArrayList<>();
+        while (true) {
+            String str = cin.nextLine();
 
-        Integer [][] arr = new Integer[n][3];
-        for (int i = 0; i < n; i++) {
-            arr[i][0] = in.nextInt();
-            arr[i][1] = in.nextInt();
-            arr[i][2] = in.nextInt();
-        }
+            int max = 0;
+            int index = 0;
+            String maxs = "";
+            for (int i = 0; i < str.length() - 1; i++) {
+                char a = str.charAt(i);
+                char b = 0;
+                char c = 0;
+                int anum = 1;
+                int bnum = 0;
+                int cnum = 0;
+                for (int j = i + 1; j < str.length(); j++) {
 
-        Arrays.sort(arr, new Comparator<Integer[]>() {
-            @Override
-            public int compare(Integer[] o1, Integer[] o2) {
-                return o1[1].compareTo(o2[1]);
+                    if (a == str.charAt(j) && bnum == 0 && cnum == 0) {
+                        anum++;
+                    }
+                    if (a != str.charAt(j) && bnum == 0 && cnum == 0) {
+                        b = str.charAt(j);
+                        bnum++;
+                    } else if (a != str.charAt(j) && b == str.charAt(j) && cnum == 0) {
+                        bnum++;
+                    }
+                    if (anum > 0 && bnum > 0 && b != str.charAt(j) && cnum == 0) {
+                        c = str.charAt(j);
+                        cnum++;
+                    } else if (c == str.charAt(j)) {
+                        cnum++;
+                    }
+                }
+                if (anum > bnum && cnum > bnum) {
+                    int num = anum > cnum ? cnum : anum;
+                    StringBuilder sb = new StringBuilder();
+                    for (int j = 0; j < num; j++) {
+                        sb.append(a);
+                    }
+                    for (int j = 0; j < bnum; j++) {
+                        sb.append(b);
+                    }
+                    for (int j = 0; j < num; j++) {
+                        sb.append(c);
+                    }
+                    if (max < sb.length()) {
+                        max = sb.length();
+                        index = i;
+                        maxs = sb.toString();
+                    }
+                }
             }
-        });
+            System.out.println(maxs);
+        }
 
-        int left = 0, right = n - 1;
-        while(left <= right){
-            int mid = (left + right) / 2;
-            if(arr[mid][1] > time){
-                right = mid - 1;
-            }else{
-                left = mid + 1;
-            }
-        }
-        //left为第一个比time大的时间
-        left--;
-        while(left >= 0){
-            if(arr[left][1] <= time && arr[left][2] >= time){
-                result.add(arr[left][0]);
-            }else if(arr[left][1] > time){
-                break;
-            }
-            left--;
-        }
-        Collections.sort(result);
-        if(result.size() == 0){
-            System.out.println("null");
-        }else{
-            for(int x : result)
-                System.out.println(x);
-        }
     }
 }

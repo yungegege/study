@@ -1,11 +1,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.maoyan</groupId>
-	<artifactId>maoyan-show-m-web</artifactId>
+	<groupId>com.linghua</groupId>
+	<artifactId>study</artifactId>
 	<version>1.0.0</version>
 	<packaging>war</packaging>
-	<name>maoyan-show-m-web</name>
+	<name>study</name>
 
 	<properties>
 		<env>qa</env>
@@ -48,44 +48,6 @@
   </dependencyManagement>
 
 	<dependencies>
-		<!-- 美团图片服务 -->
-		<dependency>
-			<groupId>com.meituan.image</groupId>
-			<artifactId>client</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.dianping.movie</groupId>
-			<artifactId>movie-image-api</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.maoyan</groupId>
-			<artifactId>maoyan-show-bsdata-api</artifactId>
-			<version>${maoyan-show-bsdata-api.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>cglib</groupId>
-			<artifactId>cglib</artifactId>
-			<version>3.2.0</version>
-		</dependency>
-		<dependency>
-			<groupId>com.maoyan</groupId>
-			<artifactId>movie-oceanus-sdk</artifactId>
-			<version>${oceanus.sdk.version}</version>
-		</dependency>
-        <dependency>
-            <groupId>com.meituan.service.mobile</groupId>
-            <artifactId>mtthrift</artifactId>
-        </dependency>
-		<dependency>
-			<groupId>com.meituan.service.movie</groupId>
-			<artifactId>movie.deal.service.common</artifactId>
-			<version>1.1.9</version>
-		</dependency>
-		<dependency>
-			<groupId>com.dianping.cat</groupId>
-			<artifactId>cat-core</artifactId>
-			<version>1.4.4</version>
-		</dependency>
 		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-api</artifactId>
@@ -95,17 +57,6 @@
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-log4j12</artifactId>
 			<version>1.5.11</version>
-		</dependency>
-		<dependency>
-			<groupId>com.dianping</groupId>
-			<artifactId>avatar-logger</artifactId>
-			<version>2.2.4</version>
-			<exclusions>
-				<exclusion>
-					<artifactId>spring-context-support</artifactId>
-					<groupId>org.springframework</groupId>
-				</exclusion>
-			</exclusions>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework</groupId>
@@ -138,71 +89,9 @@
 			<version>1.14.8</version>
 		</dependency>
 		<dependency>
-			<groupId>com.dianping.data.warehouse</groupId>
-			<artifactId>dp-log</artifactId>
-			<version>1.0.6</version>
-		</dependency>
-		<dependency>
-			<groupId>javax.servlet</groupId>
-			<artifactId>javax.servlet-api</artifactId>
-			<version>3.1.0</version>
-			<scope>provided</scope>
-		</dependency>
-		<dependency>
 			<groupId>commons-codec</groupId>
 			<artifactId>commons-codec</artifactId>
 			<version>1.3</version>
-		</dependency>
-		<dependency>
-			<groupId>com.dianping</groupId>
-			<artifactId>gis-api</artifactId>
-			<version>1.0.3</version>
-		</dependency>
-		<dependency>
-			<groupId>com.dianping</groupId>
-			<artifactId>iphub-api</artifactId>
-			<version>1.2.0</version>
-		</dependency>
-		<!--点评侧收藏-->
-		<dependency>
-			<groupId>com.dianping</groupId>
-			<artifactId>user-remote</artifactId>
-			<version>2.0.4</version>
-		</dependency>
-		<dependency>
-			<groupId>com.dianping</groupId>
-			<artifactId>account-common-validation</artifactId>
-			<version>1.4.4</version>
-			<exclusions>
-				<exclusion>
-					<artifactId>spring</artifactId>
-					<groupId>org.springframework</groupId>
-				</exclusion>
-				<exclusion>
-					<artifactId>spring-jdbc</artifactId>
-					<groupId>org.springframework</groupId>
-				</exclusion>
-				<exclusion>
-					<artifactId>spring-orm</artifactId>
-					<groupId>org.springframework</groupId>
-				</exclusion>
-                <exclusion>
-                    <artifactId>jackson-mapper-asl</artifactId>
-                    <groupId>org.codehaus.jackson</groupId>
-                </exclusion>
-                <exclusion>
-                    <artifactId>struts2-core</artifactId>
-                    <groupId>org.apache.struts</groupId>
-                </exclusion>
-                <exclusion>
-                    <artifactId>log4j-slf4j-impl</artifactId>
-                    <groupId>org.apache.logging.log4j</groupId>
-                </exclusion>
-                <exclusion>
-                    <artifactId>log4j-1.2-api</artifactId>
-                    <groupId>org.apache.logging.log4j</groupId>
-                </exclusion>
-            </exclusions>
 		</dependency>
         <dependency>
             <groupId>org.codehaus.jackson</groupId>
@@ -234,201 +123,12 @@
 			<artifactId>fastjson</artifactId>
 			<version>1.2.29</version>
 		</dependency>
-        <dependency>
-            <groupId>com.dianping.swallow</groupId>
-            <artifactId>swallow-producerclient</artifactId>
-            <version>${swallow.version}</version>
-            <exclusions>
-                <exclusion>
-                    <groupId>com.meituan.mafka</groupId>
-                    <artifactId>mafka-client_2.9</artifactId>
-                </exclusion>
-            </exclusions>
-        </dependency>
-        <dependency>
-            <groupId>com.dianping.swallow</groupId>
-            <artifactId>swallow-consumerclient</artifactId>
-            <version>${swallow.version}</version>
-            <exclusions>
-                <exclusion>
-                    <artifactId>mafka-client_2.9</artifactId>
-                    <groupId>com.meituan.mafka</groupId>
-                </exclusion>
-            </exclusions>
-        </dependency>
-        <dependency>
-            <groupId>com.dianping.swallow</groupId>
-            <artifactId>swallow-common</artifactId>
-            <version>${swallow.version}</version>
-        </dependency>
 		<dependency>
-			<groupId>com.dianping.lion</groupId>
-			<artifactId>lion-client</artifactId>
-			<version>0.7.4</version>
+			<groupId>commons-lang</groupId>
+			<artifactId>commons-lang</artifactId>
+			<version>2.6</version>
 		</dependency>
 
-		<dependency>
-			<groupId>com.dianping</groupId>
-			<artifactId>ops-remote-host</artifactId>
-			<version>1.0.14</version>
-			<exclusions>
-				<exclusion>
-					<groupId>com.dianping.lion</groupId>
-					<artifactId>lion-client</artifactId>
-				</exclusion>
-			</exclusions>
-		</dependency>
-		<dependency>
-			<groupId>joda-time</groupId>
-			<artifactId>joda-time</artifactId>
-			<version>2.9.2</version>
-		</dependency>
-		<dependency>
-			<groupId>org.hibernate</groupId>
-			<artifactId>hibernate-validator</artifactId>
-			<version>5.2.4.Final</version>
-		</dependency>
-		<dependency>
-			<groupId>com.maoyan</groupId>
-			<artifactId>maoyan-show-data-api</artifactId>
-			<version>${maoyan-show-data-api.version}</version>
-            <exclusions>
-                <exclusion>
-                    <groupId>com.maoyan</groupId>
-                    <artifactId>maoyan-show-common</artifactId>
-                </exclusion>
-            </exclusions>
-		</dependency>
-		<dependency>
-			<groupId>com.maoyan</groupId>
-			<artifactId>maoyan-show-deal-api</artifactId>
-			<version>${maoyan-show-deal-api.version}</version>
-            <exclusions>
-                <exclusion>
-                    <groupId>com.maoyan</groupId>
-                    <artifactId>maoyan-show-common</artifactId>
-                </exclusion>
-                <exclusion>
-                    <groupId>com.maoyan</groupId>
-                    <artifactId>maoyan-show-data-api</artifactId>
-                </exclusion>
-            </exclusions>
-		</dependency>
-        <dependency>
-            <groupId>com.maoyan</groupId>
-            <artifactId>maoyan-show-common</artifactId>
-            <version>${maoyan-show-common.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>com.maoyan</groupId>
-            <artifactId>maoyan-show-util</artifactId>
-            <version>1.0.5</version>
-			<exclusions>
-				<exclusion>
-					<groupId>com.netflix.rxjava</groupId>
-					<artifactId>rxjava-core</artifactId>
-				</exclusion>
-			</exclusions>
-        </dependency>
-        <dependency>
-            <groupId>com.maoyan</groupId>
-            <artifactId>maoyan-show-tpdata-api</artifactId>
-            <version>${maoyan-show-tpdata-api.version}</version>
-        </dependency>
-        <!-- 演出优惠券-->
-        <dependency>
-            <groupId>com.maoyan</groupId>
-            <artifactId>myshow-coupon-query-api</artifactId>
-            <version>${maoyan-show-coupon-query-api.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>com.maoyan</groupId>
-            <artifactId>maoyan-show-coupon-common</artifactId>
-            <version>1.0.4</version>
-        </dependency>
-		<dependency>
-			<groupId>com.maoyan</groupId>
-			<artifactId>myshow-coupon-manage-api</artifactId>
-			<version>${maoyan-show-coupon-manage-api.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>com.maoyan</groupId>
-			<artifactId>myshow-coupon-process-api</artifactId>
-			<version>${maoyan-show-coupon-process-api.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>com.maoyan</groupId>
-			<artifactId>maoyan-show-promotion-api</artifactId>
-			<version>${maoyan-show-promotion-api.version}</version>
-		</dependency>
-		<dependency>
-            <groupId>com.dianping.movie</groupId>
-            <artifactId>movie-image-api</artifactId>
-            <version>1.1.7</version>
-		</dependency>
-		<dependency>
-			<groupId>com.dianping</groupId>
-			<artifactId>shop-api</artifactId>
-			<version>0.4.4-SNAPSHOT</version>
-            <exclusions>
-                <exclusion>
-                    <artifactId>libthrift</artifactId>
-                    <groupId>org.apache</groupId>
-                </exclusion>
-            </exclusions>
-        </dependency>
-        <dependency>
-            <groupId>com.meituan.service.user</groupId>
-            <artifactId>account-api</artifactId>
-            <version>0.0.4-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>com.dianping.poi</groupId>
-            <artifactId>poi-gis-api</artifactId>
-            <version>0.0.18</version>
-        </dependency>
-        <!--<dependency>-->
-            <!--<groupId>com.dianping.oppkit</groupId>-->
-            <!--<artifactId>oppkit-client</artifactId>-->
-            <!--<version>0.2.1</version>-->
-
-        <!--</dependency>-->
-        <dependency>
-            <groupId>com.dianping.sales</groupId>
-            <artifactId>mkt-adv-api</artifactId>
-            <version>3.7</version>
-        </dependency>
-		<dependency>
-			<groupId>com.meituan.service.mobile</groupId>
-			<artifactId>movie-common-thrift</artifactId>
-			<version>0.9.0</version>
-		</dependency>
-        <dependency>
-            <groupId>com.meituan.service.user</groupId>
-            <artifactId>validate-token-api</artifactId>
-            <version>1.0.0</version>
-        </dependency>
-		<dependency>
-			<groupId>com.maoyan</groupId>
-			<artifactId>inf-user-center.export</artifactId>
-			<version>1.0.9</version>
-		</dependency>
-        <dependency>
-            <groupId>com.maoyan</groupId>
-            <artifactId>inf-user-profile.export</artifactId>
-            <version>1.0.0</version>
-        </dependency>
-        <dependency>
-            <groupId>security</groupId>
-            <artifactId>sec-sdk</artifactId>
-            <version>0.3.14</version>
-        </dependency>
-		<!-- 美团i版登录 -->
-		<dependency>
-			<groupId>com.meituan.service.mobile</groupId>
-			<artifactId>touch_account</artifactId>
-			<version>2.2.1</version>
-		</dependency>
 		<dependency>
 			<groupId>org.apache.httpcomponents</groupId>
 			<artifactId>httpclient</artifactId>
@@ -444,8 +144,6 @@
 			<artifactId>httpcore</artifactId>
 			<version>4.4.9</version>
 		</dependency>
-
-
 
         <!-- test -->
 		<dependency>
@@ -467,16 +165,10 @@
             <artifactId>commons-codec</artifactId>
             <version>1.9</version>
         </dependency>
-
-		<!-- maoyan-service -->
 		<dependency>
-			<groupId>com.maoyan.service</groupId>
-			<artifactId>maoyan-point-card-api</artifactId>
-			<version>1.9</version>
-		</dependency>
-		<dependency>
-			<groupId>com.dianping.squirrel</groupId>
-			<artifactId>squirrel-client</artifactId>
+			<groupId>redis.clients</groupId>
+			<artifactId>jedis</artifactId>
+			<version>2.8.0</version>
 		</dependency>
 
     </dependencies>

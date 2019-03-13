@@ -19,6 +19,8 @@ public class Demo8_Executors {
         Executors.newScheduledThreadPool(5);//创建一个具有指定线程数的线程池，它可以在指定延迟后执行线程任务。
                                                         //也就是说：是一个能够实现定时和周期性任务的线程池。
 
+
+
     }
 
 }
